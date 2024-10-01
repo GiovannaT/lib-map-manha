@@ -8,7 +8,8 @@ import Signup  from './pages/Signup/index.tsx'
 import BookDetails from './pages/BookDetails/index.tsx';
 import ForgotPassword from './pages/ForgotPassword/index.tsx';
 import { Menu } from './pages/Menu/index.tsx'
-import ForgotPassword from './pages/ForgotPassword/index.tsx';
+import Historico from './pages/Historico/index.tsx';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: '/forgot-password',
     element: <ForgotPassword />
+  },
+  {
+    path: '/Historico',
+    element: <Historico/>
   }
 ]);
 
