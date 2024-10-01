@@ -1,7 +1,7 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import axios from 'axios';
 
-interface Books{
+interface Books {
     number: number;
     title: string;
     originalTitle: string;
