@@ -1,0 +1,80 @@
+.historico-container {
+    padding: 45px;
+    
+}
+
+.btn-voltar {
+    border: none; 
+    padding: 4px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 40px; 
+    height: 40px; 
+    transform: translateY(-25px); 
+    margin-left: -20px;
+}
+
+.btn-voltar svg, .btn-voltar .fa-icon {
+    width: 70px; 
+    height: 70px; 
+    fill: #000; 
+}
+.perfil-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #7e7e7e;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background-color: #e4e4e4;
+}
+
+.perfil-imagem {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+}
+
+.perfil-info {
+    flex-grow: 1;
+}
+
+.perfil-nome {
+
+    font-size: 20px;
+}
+
+.perfil-matricula {
+    color: #303030;
+}
+
+.historico-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black; 
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.historico-item {
+    padding: 20px;
+    border: 1px solid #919191;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    margin-bottom: 10px; 
+}
+
+.pendente {
+    color: black;
+}
+
+.atraso {
+    color: red;
+}
