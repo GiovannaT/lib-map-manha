@@ -5,6 +5,7 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Books } from './pages/Books/index.tsx'
 import BookDetails from './pages/BookDetails/index.tsx';
+import ForgotPassword from './pages/ForgotPassword/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     path: '/books/:id',
     element: <BookDetails />
   },
+  {
+    path: '/forgot-password',
+    element: <ForgotPassword />
+  }
 ]);
 
 const rootElement = document.getElementById('root');
