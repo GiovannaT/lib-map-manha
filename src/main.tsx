@@ -4,6 +4,7 @@ import './index.css'
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Books } from './pages/Books/index.tsx'
+import Perfil from './pages/Perfil/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     path: '/books',
     element: <Books/>
   },
+  {
+    path: '/perfil',
+    element: <Perfil/>
+  }
 ]);
 
 const rootElement = document.getElementById('root');

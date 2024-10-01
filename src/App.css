@@ -20,3 +20,8 @@ img{
   display: flex;
   flex-direction: column;
 }
+
+.opçoes{
+display: flex;
+margin: 0px 10px;
+}

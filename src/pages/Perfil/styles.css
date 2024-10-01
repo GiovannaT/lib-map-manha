@@ -1,0 +1,57 @@
+
+.botoes{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+gap:40px ;
+
+}
+
+.botoes button{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botoes button img{
+    width: 40px;
+}
+.botoes button p{
+    font-size: 12px;
+}
+
+.ajuda{
+    background-color: white;
+    color: black;
+}
+
+.Editar{
+    padding: 0px 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.Menu img{
+width: 200px;
+}
+.Menu h1{
+font-weight: 400;
+font-size: 20px;
+}
+.voltar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 700;
+}
+.voltar button img{
+width: 30px;
+}
+
+.opçoes{
+font-size: 20px;
+font-weight: 700;
+}
