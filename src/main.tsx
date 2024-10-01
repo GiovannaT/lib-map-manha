@@ -4,7 +4,12 @@ import './index.css'
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Books } from './pages/Books/index.tsx'
+<<<<<<< HEAD
 import BookDetails from './pages/BookDetails/index.tsx';
+=======
+import { Menu } from './pages/Menu/index.tsx'
+
+>>>>>>> feature
 
 const router = createBrowserRouter([
   {
@@ -16,8 +21,13 @@ const router = createBrowserRouter([
     element: <Books/>
   },
   {
+<<<<<<< HEAD
     path: '/books/:id',
     element: <BookDetails />
+=======
+    path: '/menu',
+    element: <Menu/>
+>>>>>>> feature
   },
 ]);
 
