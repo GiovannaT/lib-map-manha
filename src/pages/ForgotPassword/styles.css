@@ -1,0 +1,30 @@
+header{
+  font-size: small;
+}
+.div1 img{
+width: 200px;
+}
+
+input{
+  margin-top: 20px;
+  color:#f1f1f1;
+  width: 100%;
+}
+.div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.div1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+Botao{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: black;
+}
