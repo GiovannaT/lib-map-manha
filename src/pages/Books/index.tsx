@@ -1,7 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import axios from 'axios';
+import CardBook from '../../components/CardBook';
 
-interface Books{
+interface Books {
     number: number;
     title: string;
     originalTitle: string;
@@ -27,6 +28,18 @@ export const Books = () => {
     },[])
 
   return (
-    <div>Books</div>
+    <div>
+      <h3>Livros Disponíveis</h3>
+      <div className='mappedBooks'>
+        { books ? 
+          (books.map((element) => 
+            (<div className="CardBook" key={element.number} onClick={()=> {console.log('teste')}}>
+              <CardBook linkBookCover={element.cover} bookTitle={element.title} />
+            </div>)
+          )) 
+          : 'Não temos livros disponíveis'
+        }      
+      </div>
+    </div>
   )
 }
