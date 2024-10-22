@@ -4,6 +4,7 @@ import './index.css'
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Books } from './pages/Books/index.tsx'
+import { Calendario } from './pages/Calendario/index.tsx';
 import Signup  from './pages/Signup/index.tsx'
 import BookDetails from './pages/BookDetails/index.tsx';
 import ForgotPassword from './pages/ForgotPassword/index.tsx';
@@ -20,6 +21,9 @@ const router = createBrowserRouter([
     element: <Books/>
   },
   {
+    path: '/calendario',
+    element: <Calendario/>
+  },
     path: '/SignUp',
     element: <Signup/>
   },
